@@ -1,0 +1,283 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.pagewrapper{
+  width: 970px;
+  height: 1000px;
+  /* background-color: silver; */
+  margin-left: 100px;
+}
+
+.header{
+  height: 120px;
+  background-color: #4a7eaa;
+}
+
+.headertop{
+  background-color: white;
+  height: 70px;
+}
+
+.headertop img{
+  height: 85px;
+  width: 85px;
+}
+
+.header h1 {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+.header h1 span{
+  color: #2c6ca2;
+}
+
+.lowerpart{
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(#23649d, #5182ac, #23649d);
+
+}
+.headerbottom{
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  margin-left: 15px;
+}
+
+.headerbottom h2{
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+.bodyleft{
+  /* background-color: red; */
+  height: 500px;
+  width: 150px;
+  vertical-align: top;
+  margin-top: 40px;
+  display: inline-block;
+  /* vertical-align: top; */
+}
+
+.about-internet{
+  height: 194px;
+  width: 150px;
+  /* background-color: white; */
+}
+
+.about-internet h4 span{
+  color: Red;
+}
+
+.about-internet p span{
+  color: #2c6ca2;
+}
+
+.about-internet p,.about-internet h4{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.buttons{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+button{
+  width: 100%;
+  height: 25px;
+  border-radius: 6px;
+  color: white;
+  border-style: none;
+  box-shadow: 2px 2px 2px #8c7b7b;
+  margin-top: 10px;
+}
+.upperbutton{
+  background-color: #528bb9;
+}
+
+.lowerbutton{
+  background-color: #ee8702;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.bottomleft{
+  height: 250px;
+  width: 100%;
+  /* background-color:grey; */
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.background{
+  width: 100%;
+  height: 240px;
+  display: inline-block;
+}
+.bottomleft h3{
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.ninja{
+  height: 100px;
+  width: 80px;
+  position: absolute;
+  top: 65px;
+  right: 40px;
+}
+.morebutton{
+  background-color: #43cadf;
+  position: absolute;
+  bottom: 50px;
+  left: 14px;
+  width: 80%;
+}
+.bodyright{
+  height: 500px;
+  width: 785px;
+  display: inline-block;
+  vertical-align: top;
+  /* background-color: grey; */
+  margin-left: 30px;
+
+}
+
+.righttop{
+  height: 60px;
+  width: 100%;
+  /* background-color: white; */
+  position: relative;
+  padding-bottom:
+}
+
+.homelogo{
+  display: inline-block;
+}
+
+.homelogo img{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+.homelogo p{
+  color: #4a7eaa;
+  position: absolute;
+  top: 14px;
+  left: 25px;
+}
+
+.phone-number{
+  display: inline-block;
+}
+
+.phone-number img{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 15px;
+  right: 170px;
+}
+
+.phone-number p,.phone-number h3{
+  margin-left: 615px;
+}
+
+.phone-number p{
+  font-size: 12px;
+}
+
+.phone-number h3{
+  color: #05c1df;
+}
+
+.middle-body{
+  height: 365px;
+  width: 100%;
+  /* background-color: silver; */
+  margin-top: 3px;
+}
+
+.middle-body img{
+  height: 80px;
+  width: 220px;
+  margin-left: 210px;
+  margin-top: : 5px;
+}
+
+.middle-body p, .middle-body ul, ol{
+  font-size: 14.5px;
+}
+
+.middle-body ul, ol{
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.middle-body h3{
+  color: #3e76a9;
+}
+
+.middle-body li{
+  margin-top: 4px;
+}
+
+.middle-body span{
+  color: #4db7c7;
+}
+
+.bottombody{
+  height: 120px;
+  width: 777px;
+  /* background-color: pink; */
+  border: 4px solid #0385e1;
+  border-bottom: none;
+}
+
+.bottombody img{
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.big3{
+  display: inline-block;
+  width: 650px;
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+.big3 p{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  margin: 5px 0px;
+}
+.big3 a{
+  text-decoration: none;
+  color: #059bb1;
+}
+
+.body{
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(#e3e3e3, white);
+  /* background-color: pink; */
+}
